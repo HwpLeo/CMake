@@ -1,2 +1,3 @@
 cmake -G "MinGW Makefiles" ..
-cmake --build .
+make
+cmake --install . --prefix "../install"
